@@ -39,9 +39,7 @@ monitor.initialize(fncount);
 f = getFirstFunction()
 fnhandled=0;
 
-#conn = httplib.HTTPConnection("localhost",80)
-#conn = httplib.HTTPConnection("symgrate.com",80)
-conn = httplib.HTTPConnection("sg2.frob.us",80)
+conn = httplib.HTTPConnection("symgrate.com",80)
 
 
 qstr="";
