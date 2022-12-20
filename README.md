@@ -1,8 +1,8 @@
-This is an example Ghidra script that queries a symgrate2 server.
-Copy it to `~/ghidra_scripts` and run it in the Script Manager.
+This was a Ghidra script to call the Symgrate database, but we
+deprecated it because Python2 is even lamer than Java these days.  The
+[Java plugin](https://github.com/symgrate/symgrate-ghidra) is your
+better bet, but feel free to rewind the history of this old repo if
+you need to.
 
-For now, it simply prints the matching addresses and symbol names.  In
-the near future, we'll port it from Jython2 to Java and allow for
-automatic commitment of the recovered names.
 
 
